@@ -12,7 +12,7 @@ const PORT = process.env.PORT
 
 app.use(express.json());
 app.use(cors({
-  origin: '*', // This will allow requests from any origin
+  origin: '*', 
   methods: ['GET', 'POST', 'PUT'],
 }));
 
